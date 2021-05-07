@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY</title>
+    <style>
+        button {
+            padding: 20px;
+            background-color: rgb(153, 176, 185);
+            border-radius: 50px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Array</h1>
+    <p><b>Q no 1,2,3,4,5,6</b> <br> 1. Declare an empty array using JS literal notation to store
+        student names in future.<br>
+        2. Declare an empty array using JS object notation to store
+        student names in future. <br>
+        3. Declare and initialize a strings array. <br>
+        4. Declare and initialize a numbers array. <br>
+        5. Declare and initialize a boolean array. <br>
+        6. Declare and initialize a mixed array.</p>
+    <img src="Capture.PNG" alt="">
+    <br>
+
+    <p><b>Q no 7</b> <br>Declare and Initialize an array and store available <br>
+        education qualifications in Pakistan (e.g. SSC, HSC, BCS, <br>
+        BS, BCOM, MS, M. Phil., PhD). Show the listed <br>
+        qualifications in your browser</p>
+    <button onclick="greet()">click it</button> <br>
+
+    <p><b>Q no 8</b> <br>Write a program to store 3 student names in an array. <br>
+        Take another array to store score of these three students. <br>
+        Assume that total marks are 500 for each student, display <br>
+        the scores & percentages of students</p>
+    <button onclick="myscore()">click it</button> <br>
+
+    <p><b>Q no 9</b> <br>Initialize an array with color names. Display the array
+        elements in your browser.</p>
+    <button onclick="mcolor()">click it</button> <br>
+
+    <p><b> a </b> <br>Ask the user what color he/she wants to add to the
+        beginning & add that color to the beginning of the array. <br>
+        Display the updated array in your browser.</p>
+    <button onclick="ncolor()">click it</button> <br>
+    <p><b> b </b> <br>Ask the user what color he/she wants to add to the end
+        & add that color to the end of the array. <br> Display the
+        updated array in your browser.</p>
+    <button onclick="ocolor()">click it</button> <br>
+    <p><b> c </b> <br>Add two more color to the beginning of the array.
+        Display the updated array in your browser.</p>
+    <button onclick="pcolor()">click it</button> <br>
+    <p><b> d </b> <br>Delete the first color in the array. Display the updated
+        array in your browser.</p>
+    <button onclick="qcolor()">click it</button> <br>
+    <p><b> e </b> <br>Delete the last color in the array. Display the updated
+        array in your browser.</p>
+    <button onclick="rcolor()">click it</button> <br>
+    <p><b> f </b> <br>Ask the user at which index he/she wants to add a color <br>
+        & color name. Then add the color to desired <br>
+        position/index. . Display the updated array in your
+        browser.</p>
+    <button onclick="scolor()">click it</button> <br>
+    <p><b> g </b> <br>Ask the user at which index he/she wants to delete
+        color(s) & how many colors he/she wants to delete. <br> Then remove the same number of color(s) from
+        user-defined
+        position/index. <br> Display the updated array in your
+        browser.</p>
+    <button onclick="tcolor()">click it</button> <br>
+
+    <p><b>Q no 10</b> <br>Write a program to store student scores in an array & <br>
+        sort the array in ascending order using Array’s sort <br>
+        method.</p>
+    <button onclick="starray()">click it</button> <br>
+
+    <p><b>Q no 11</b> <br>Write a program to initialize an array with city names. <br>
+        Copy 3 array elements from cities array to selectedCities
+        array.</p>
+    <button onclick="cityarray()">click it</button> <br>
+
+    <p><b>Q no 12</b> <br>Write a program to create a single string from the
+        below mentioned array: <br>
+        var arr = [“This ”, “ is ”, “ my ”, “ cat”]; <br>
+
+        (Use array’s join method)</p>
+    <button onclick="stringarray()">click it</button> <br>
+
+    <p><b>Q no 13</b> <br>Create a new array. Store values one by one in such a way <br>
+        that you can access the values in the order in which they  <br>
+        were stored. (FIFO-First In First Out)</p>
+    <button onclick="fifoarray()">click it</button> <br>
+
+    <p><b>Q no 14</b> <br>Create a new array. Store values one by one in such a way <br>
+        that you can access the values in reverse order. (Last In-First Out)</p>
+    <button onclick="lifoarray()">click it</button> <br>
+
+    <p><b>Q no 15</b> <br>Write a program to store phone manufacturers <br> (Apple,
+        Samsung, Motorola, Nokia, Sony & Haier) in an array. <br>
+        Display the following dropdown/select menu in your <br>
+        browser using document.write() method:</p>
+        <form id="myForm">
+            <select id="selectNumber">
+                <option>Phone Manufacturers</option>
+                <script>
+                    var myArray = new Array("Apple", "Samsung", "Matrola", "Nokia","Sony","Haier");
+                    for(i=0; i<myArray.length; i++) {  
+                        document.write('<option value="' + myArray[i] +'">' + myArray[i] + '</option>');
+                    }
+                </script>
+            </select>
+            </form>
+     <p> <h3>Class activity</h3> write multiplication tables in Javascript from 1 to 20 by using forloop</p>
+      <a href="table.html"> Multiplication Tables</a>
+
+
+</body>
+<script src="style.js"></script>
+
+</html>
